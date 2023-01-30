@@ -9,7 +9,7 @@ const config = {
   title: "C++ Interview",
   staticDirectories: ["assets", "static"],
   tagline: "C++ is Hard",
-  favicon: "img/favicon.ico",
+  favicon: "/img/favicon.ico",
 
   // Set the production url of your site here
   url: "https://civitasv.github.io",
@@ -60,10 +60,6 @@ const config = {
       image: "img/docusaurus-social-card.jpg",
       navbar: {
         title: "C++ Interview",
-        logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
-        },
         items: [
           {
             type: "doc",

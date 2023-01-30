@@ -333,3 +333,117 @@ int *(*x[10])(void);
 
 1. 始终从内往外读声明符号，即从 `x` 开始读
 2. 在作选择时，始终先是 `[]` 和 `()` 再是 `*`，`int *x[10]` 表示具有 10 个指向 int 的指针的数组。
+
+## 面向对象，C 语言
+
+Example:
+
+```cpp
+#include <stdio.h>
+
+// The top-level class.
+
+typedef struct sCommClass {
+  int (*open)(struct sCommClass *self, char *fspec);
+} tCommClass;
+
+// Inherit
+// Function for the TCP 'class'.
+static int tcpOpen(tCommClass *tcp, char *fspec) {
+  printf("Opening TCP: %s\n", fspec);
+  return 0;
+}
+static int tcpInit(tCommClass *tcp) {
+  tcp->open = &tcpOpen;
+  return 0;
+}
+
+// Function for the HTTP 'class'.
+static int httpOpen(tCommClass *http, char *fspec) {
+  printf("Opening HTTP: %s\n", fspec);
+  return 0;
+}
+static int httpInit(tCommClass *http) {
+  http->open = &httpOpen;
+  return 0;
+}
+
+int main(void) {
+  int status;
+  tCommClass commTcp, commHttp;
+
+  // Same 'base' class but initialised to different sub-classes
+  tcpInit(&commTcp);
+  httpInit(&commHttp);
+
+  // Called in exactly the same manner, polymorphism
+  status = (commTcp.open)(&commTcp, "bigiron.box.com:5000");
+  status = (commHttp.open)(&commHttp, "http://www.microsoft.com");
+
+  return 0;
+}
+```
+
+- 对于封装，可以使用函数指针和数据指针
+- 对于继承，可以使用结构体的嵌套
+- 对于多态，可以使父类和子类的函数指针不同
+
+## operator 重载
+### bool()
+
+```cpp
+struct A {
+  operator bool() const { return true; }
+};
+```
+
+> `operator TypeName()` are conversion operators. Thet allow objects of the class type to be used as if they were of type `TypeName` and when they are, they are converted to `TypeName` using this conversion function.  
+> From <https://stackoverflow.com/questions/4600295/what-is-the-meaning-of-operator-bool-const>
+
+因此，这个运算符重载函数能够将 A 对象转换为 `bool`。
+## explicit
+
+```cpp
+struct A {
+  A(int a) { cout << "Normal constructor" << '\n'; } // implicit constructor
+  A(const A &a) { cout << "Copy constructor" << '\n'; }
+  operator bool() const { return true; }
+};
+
+struct B {
+  explicit B(int b) {}
+  explicit operator bool() const { return true; }
+};
+
+int main() {
+  A a1(1);
+  A a2 = 1;
+  A a3{1};
+  A a4 = {1};
+  bool a5 = a1;
+
+  B b1(1); // OK：直接初始化
+  // B b2 = 1; // 错误：被 explicit 修饰构造函数的对象不可以复制初始化
+  B b3{1};    // OK：直接列表初始化
+  // B b4 = {1}; // 错误：被 explicit 修饰构造函数的对象不可以复制列表初始化
+  B b5 = (B)1; // OK：允许 static_cast 的显式转换
+  if (b1)
+    ; // OK：被 explicit 修饰转换函数 B::operator bool() 的对象可以从 B 到 bool
+      // 的按语境转换
+  bool b6(b1); // OK：被 explicit 修饰转换函数 B::operator bool() 的对象可以从 B
+               // 到 bool 的按语境转换
+  // bool b7 = b1; // 错误：被 explicit 修饰转换函数 B::operator bool()
+                // 的对象不可以隐式转换
+  bool b8 = static_cast<bool>(b1); // OK：static_cast 进行直接初始化
+}
+```
+
+1. explicit 可以防止隐式转换，更加安全
+2. 使用 explicit 时，部分情况下仍可以按语境转换，如 `if`, `while`, `for`, `!`, `&&`, `||`, `?:`, `static_assert`
+
+## noexcept
+
+> The noexcept operator performs a compile-time check that returns `true` if an expression is declared to not throw any expressions.
+
+throw() 相当于 noexcept(true)
+
