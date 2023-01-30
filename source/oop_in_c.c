@@ -6,6 +6,7 @@ typedef struct sCommClass {
   int (*open)(struct sCommClass *self, char *fspec);
 } tCommClass;
 
+// Inherit
 // Function for the TCP 'class'.
 static int tcpOpen(tCommClass *tcp, char *fspec) {
   printf("Opening TCP: %s\n", fspec);
@@ -30,13 +31,11 @@ int main(void) {
   int status;
   tCommClass commTcp, commHttp;
 
-  // Same 'base' class but initialised to different sub-classes.
-
+  // Same 'base' class but initialised to different sub-classes
   tcpInit(&commTcp);
   httpInit(&commHttp);
 
-  // Called in exactly the same manner.
-
+  // Called in exactly the same manner, polymorphism
   status = (commTcp.open)(&commTcp, "bigiron.box.com:5000");
   status = (commHttp.open)(&commHttp, "http://www.microsoft.com");
 
