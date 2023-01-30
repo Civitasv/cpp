@@ -1,16 +1,71 @@
-# C/C++
+---
+slug: /
+sidebar_position: 1
+---
+
+# 🛠️ C++
 
 ## const
 
-[Example](./cpp.cc)
+```cpp
+#include <iostream>
+
+int main() {
+  const int a = 5;
+  // a = 6; // error, const 变量不能改变
+
+  int b = 2;
+  const int *p = &b;
+  // attention: const int = int const
+  // *p = 2; // error, 指针指向的值是 const, 所以不能修改
+  int *const p2 = &b;
+
+  *p2 = 20; // right, 此时是 const 指针，表明指针是不可变的，但指向的变量可变
+
+  const int &c = b;
+  // c = 2; // error, 引用的值是 const, 所以不能修改
+  // int &const d = b; // error, const 不能修饰引用, 因为引用只是对象的别名
+
+  class Test {
+    void test() const {
+      // a = 2; // error, const 成员函数不能修改成员变量，其实就是不能修改 this
+      // const int* this = object;
+    } // 表示该函数不能修改成员变量
+
+    int a;
+  };
+}
+```
 
 ## constexpr
 
-[Example](./constexpr.cc)
+```cpp
+#include <array>
+#include <iostream>
 
-> const 和 constexpr 的最大区别是：constexpr 必须在编译器初始化，而 const 可以在编译器初始化，也可以在运行期初始化。
+int main() {
+  constexpr int a = 5;
+  // a = 6; // error, const 变量不能改变
 
-> const 和 constexpr 都存在类型安全检查，需要分配内存，存储在数据段，而 #define 无类型安全检查，不分配内存，存储在代码段，定义常量时，可以选择 constexpr 或 #define，不过 const 和 constexpr 无法完全取代 #define。
+  constexpr int c = 10;
+  std::array<int, c> x; // okay
+
+  int size;
+  const int d = size; // okay
+  // std::array<int, d> y; // error
+
+  const int e = 5;
+  std::array<int, e> y; // okay, e is a constant expression
+}
+```
+
+:::note
+const 和 constexpr 的最大区别是：constexpr 必须在编译器初始化，而 const 可以在编译器初始化，也可以在运行期初始化。
+:::
+
+:::note
+const 和 constexpr 都存在类型安全检查，需要分配内存，存储在数据段，而 #define 无类型安全检查，不分配内存，存储在代码段，定义常量时，可以选择 constexpr 或 #define，不过 const 和 constexpr 无法完全取代 #define。
+:::
 
 ## mutable
 
@@ -29,7 +84,33 @@ class Mutable {
 
 ## static、auto、extern
 
-[Example](./static.cc)
+```cpp
+namespace {
+void PRIVATE() {}
+} // namespace
+
+static void PrivateFunc() {}
+
+class StaticUsage {
+public:
+  static int a; // 类数据变量
+
+  static void ClassFunc() {
+    // 类函数
+    PrivateFunc();
+    PRIVATE();
+  }
+  int A(); // declaration
+};
+
+// definition
+inline int StaticUsage::A() { return 0; }
+
+int main() {
+  static int a; // 变量存储区域为静态区
+  StaticUsage::ClassFunc();
+}
+```
 
 - 链接：
   1. 无链接: 局部变量
@@ -64,7 +145,41 @@ int main() {
 
 ## inline
 
-[Example](./inline.cc)
+```cpp
+#include <iostream>
+using namespace std;
+
+class Base {
+public:
+  inline virtual void who() { cout << "I am Base\n"; }
+  virtual ~Base() {}
+};
+class Derived : public Base {
+public:
+  inline void who() // 不写inline时隐式内联
+  {
+    cout << "I am Derived\n";
+  }
+};
+
+int main() {
+  // 此处的虚函数
+  // who()，是通过类（Base）的具体对象（b）来调用的，编译期间就能确定了，所以它可以是内联的，但最终是否内联取决于编译器。
+  Base b;
+  b.who();
+
+  // 此处的虚函数是通过指针调用的，呈现多态性，需要在运行时期间才能确定，所以不能为内联。
+  Base *ptr = new Derived();
+  ptr->who();
+
+  // 因为Base有虚析构函数（virtual ~Base() {}），所以 delete
+  // 时，会先调用派生类（Derived）析构函数，再调用基类（Base）析构函数，防止内存泄漏。
+  delete ptr;
+  ptr = nullptr;
+
+  return 0;
+}
+```
 
 - 相当于把内联函数里面的内容写在调用内联函数处；
 - 相当于不用执行进入函数的步骤，直接执行函数体；
@@ -116,7 +231,29 @@ volatile tells the compiler that:
 
 ## sizeof
 
-[Example](./sizeof.cc)
+```cpp
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+  int a = 3;
+  cout << sizeof(a) << '\n'; // return sizeof integer, 4
+
+  int *b = &a;
+  cout << sizeof(b) << '\n'; // return sizeof pointer, 8
+
+  int n[] = {1, 2, 3, 4};
+  cout << sizeof(n) << '\n'; // return size of array, 16
+
+  int *p = n;
+  cout << sizeof(p) << '\n'; // return sizeof pointer, 8
+
+  string ss = "1";
+  cout << sizeof(ss) << '\n'; // return sizeof string pointer, 32
+}
+```
 
 ## extern "C"
 
@@ -195,4 +332,4 @@ int *(*x[10])(void);
 规则：
 
 1. 始终从内往外读声明符号，即从 `x` 开始读
-2. 在作选择时，始终先是 `[]` 和 `()` 再是 `*`，`int *x[10]` 表示具有10个指向 int 的指针的数组。
+2. 在作选择时，始终先是 `[]` 和 `()` 再是 `*`，`int *x[10]` 表示具有 10 个指向 int 的指针的数组。
