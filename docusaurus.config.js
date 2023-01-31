@@ -63,9 +63,9 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "cpp",
+            docId: "index",
             position: "left",
-            label: "C++",
+            label: "cpp",
           },
           {
             href: "https://github.com/Civitasv/cpp",
@@ -82,7 +82,7 @@ const config = {
             items: [
               {
                 label: "C++",
-                to: "/cpp",
+                to: "/index",
               },
             ],
           },

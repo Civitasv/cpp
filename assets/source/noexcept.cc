@@ -1,9 +1,34 @@
-void func1() noexcept; // not throw
-void func2() noexcept(true); // not throw
-void func3() throw(); // not throw
+#include <array>
+#include <iostream>
+#include <vector>
 
-void func4() noexcept(false); // may throw
+class NoexceptCopy {
+public:
+  std::array<int, 5> arr{1, 2, 3, 4, 5}; // (2)
+};
 
-int main(){
+class NonNoexceptCopy {
+public:
+  std::vector<int> v{1, 2, 3, 4, 5}; // (3)
+};
 
+template <typename T>
+T copy(T const &src) noexcept(
+    std::is_nothrow_copy_constructible<T>::value) { // (1)
+  return src;
+}
+
+int main() {
+  NoexceptCopy noexceptCopy;
+  NonNoexceptCopy nonNoexceptCopy;
+
+  std::cout << std::boolalpha << std::endl;
+
+  std::cout << "noexcept(copy(noexceptCopy)): " << // (4)
+      noexcept(copy(noexceptCopy)) << std::endl;
+
+  std::cout << "noexcept(copy(nonNoexceptCopy)): " << // (5)
+      noexcept(copy(nonNoexceptCopy)) << std::endl;
+
+  std::cout << std::endl;
 }
