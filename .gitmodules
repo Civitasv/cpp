@@ -1,3 +1,3 @@
-[submodule "docs/make-a-web-server/web-server"]
-	path = docs/make-a-web-server/web-server
+[submodule "docs/project/http-server/tcp-sevr"]
+	path = docs/project/http-server/tcp-sevr
 	url = git@github.com:Civitasv/tcp_sevr.git
