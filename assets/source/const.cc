@@ -14,7 +14,8 @@ int main() {
 
   const int &c = b;
   // c = 2; // error, 引用的值是 const, 所以不能修改
-  // int &const d = b; // error, const 不能修饰引用, 因为引用只是对象的别名
+  int &const d = b; 
+  d = 2; // 这里没有改变 d，所以没有问题，可以把引用看成一个不变的指针
 
   class Test {
     void test() const {
