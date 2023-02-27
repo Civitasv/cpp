@@ -1,0 +1,31 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "showFrontmatter": true,
+  "spellcheck": false,
+  "spellcheckLanguages": [
+    "en-US"
+  ],
+  "vimMode": true,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "useMarkdownLinks": true,
+  "userIgnoreFilters": [
+    "node_modules/",
+    "assets/",
+    "build/",
+    "src/",
+    "static/"
+  ],
+  "tabSize": 2,
+  "showLineNumber": false
+}

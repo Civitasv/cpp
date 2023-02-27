@@ -1,0 +1,120 @@
+{
+  "main": {
+    "id": "c1fc8f61ffc3d2b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "61ecff600081638b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "tech/angular/Angular CLi.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0058d8fc1f814e96",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6ed0773c2078476",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f16fe43bdf1b26fb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "afdf89713d8d27e9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#执行中",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267.5
+  },
+  "right": {
+    "id": "94d74886e9927f0e",
+    "type": "split",
+    "children": [
+      {
+        "id": "20c721e517f02d2d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54a714d7a8da6b2f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "tech/angular/Angular CLi.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "0a9610a525a6ca3c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "998a0bd55f65ff7e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f16fe43bdf1b26fb",
+  "lastOpenFiles": [
+    "tech/angular/README.md",
+    "tech/angular/基础.md",
+    "tech/angular/Components.md",
+    "tech/angular/Angular CLi.md",
+    "tech/angular/An example.md",
+    "pages/Neovim 展示.md",
+    "journals/2022-06-17.md",
+    "journals/2022_05_07.md",
+    "journals/2022-06-03.md",
+    "journals/2022-05-27.md"
+  ]
+}

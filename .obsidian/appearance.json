@@ -1,0 +1,11 @@
+{
+  "translucency": false,
+  "interfaceFontFamily": "Iosevka,LXGW WenKai",
+  "textFontFamily": "Iosevka,LXGW WenKai",
+  "monospaceFontFamily": "Iosevka,LXGW Wenkai",
+  "baseFontSize": 18,
+  "cssTheme": "Obsidianite",
+  "theme": "obsidian",
+  "baseFontSizeAction": true,
+  "accentColor": ""
+}

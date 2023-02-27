@@ -1,0 +1,13 @@
+{
+  "blue-topaz-theme@@translucent-setting-panel": false,
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-chocolate-topaz",
+  "shimmering-focus@@hide-settings-button": false,
+  "shimmering-focus@@show-sidebar-header-buttons": false,
+  "shimmering-focus@@show-ribbon": false,
+  "shimmering-focus@@show-urls": false,
+  "shimmering-focus@@hide-attachment-folders": false,
+  "shimmering-focus@@show-vault-in-file-explorer": false,
+  "shimmering-focus@@hidden-sidebars-hidden-statusbar": false,
+  "shimmering-focus@@use-relative-line-numbers": true,
+  "shimmering-focus@@longform-font-text-theme": "\"Lora\", \"Iosevka\", \"Sarasa Fixed CL\""
+}
