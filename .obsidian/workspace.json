@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5c5904801d2c14ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/计算机网络/10. 计算机网络微课堂.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "77823d479d16ca4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/计算机网络/10. 计算机网络微课堂.md",
+                "file": "docs/Linux/4. Linux Crash Course.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/计算机网络/10. 计算机网络微课堂.md",
+                "file": "docs/Linux/4. Linux Crash Course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,17 +124,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f16fe43bdf1b26fb",
+  "active": "77823d479d16ca4c",
   "lastOpenFiles": [
-    "docs/计算机网络/9. TCP 流量控制.md",
-    "docs/并行/2. CUDA.md",
-    "docs/并行/1. OpenCL.md",
+    "docs/Linux/3. Linux用户管理.md",
+    "docs/Linux/4. Linux Crash Course.md",
+    "docs/Linux/[.md",
+    "docs/Linux/2. Linux文件系统.md",
+    "docs/Linux/1. Linux常用命令.md",
+    "docs/cpp/README.md",
+    "docs/cpp/39. placement new.md",
+    "docs/cpp/38. RAII 原则.md",
+    "docs/cpp/37. llvm.md",
+    "docs/cpp/36. 静态存储区 Vs 动态存储区.md",
+    "docs/cpp/35. 循环引用.md",
+    "docs/cpp/34. C++ 17 新特性.md",
     "docs/计算机网络/10. 计算机网络微课堂.md",
-    "docs/计算机网络/8. TCP 拥塞控制.md",
-    "docs/计算机网络/6. select, poll, epoll.md",
-    "docs/计算机网络/Pasted image 20230226222355.png",
-    "docs/计算机网络/Untitled.md",
-    "README.md",
-    "docs/计算机网络/3. Get VS Post.md"
+    "docs/cpp/33. LAMBDA 表达式.md",
+    "docs/cpp/32. C++ 11 新特性.md",
+    "docs/cpp/31. new and delete.md",
+    "docs/cpp/30. 浅拷贝 vs 深拷贝.md",
+    "docs/cpp/29. enum变量初始化.md",
+    "docs/cpp/27. 类型转换.md",
+    "docs/cpp/26. oop.md",
+    "docs/cpp/25. initializer_list.md",
+    "docs/cpp/24. 左值引用和右值引用.md",
+    "docs/cpp/23. decltype.md",
+    "docs/cpp/22. enum.md",
+    "docs/cpp/21. region_operator.md",
+    "docs/cpp/20. using.md",
+    "docs/计算机网络/Pasted image 20230226222355.png"
   ]
 }
