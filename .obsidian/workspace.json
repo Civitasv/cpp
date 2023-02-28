@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "77823d479d16ca4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/计算机网络/10. 计算机网络微课堂.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,26 +137,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5c5904801d2c14ee",
+  "active": "f16fe43bdf1b26fb",
   "lastOpenFiles": [
     "docs/计算机网络/9. TCP 流量控制.md",
-    "docs/计算机网络/8. TCP 拥塞控制.md",
+    "docs/并行/2. CUDA.md",
+    "docs/并行/1. OpenCL.md",
     "docs/计算机网络/10. 计算机网络微课堂.md",
+    "docs/计算机网络/8. TCP 拥塞控制.md",
     "docs/计算机网络/6. select, poll, epoll.md",
     "docs/计算机网络/Pasted image 20230226222355.png",
     "docs/计算机网络/Untitled.md",
     "README.md",
-    "docs/计算机网络/3. Get VS Post.md",
-    "docs/计算机网络/1. TCP 和 UDP 的区别.md",
-    "pages/leetcode.md",
-    "pages/空间并行化算法.md",
-    "pages/支持空间分析的并行算法的研究与实现.md",
-    "pages/客制化键盘.md",
-    "pages/Yelp Restaurant data crawl.md",
-    "pages/Vue Proxytable.md",
-    "pages/Neovim 展示.md",
-    "pages/GRASS.md",
-    "pages/Geographical information system parallelization for spatial big data processing%3A a review.md",
-    "pages/ECharts Tutorial.md"
+    "docs/计算机网络/3. Get VS Post.md"
   ]
 }
