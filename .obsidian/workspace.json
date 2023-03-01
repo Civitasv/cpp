@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "77823d479d16ca4c",
+            "id": "8bb9f7af6ee6c482",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Linux/4. Linux Crash Course.md",
+                "file": "docs/阿里云/面经.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 200
   },
   "right": {
     "id": "94d74886e9927f0e",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Linux/4. Linux Crash Course.md",
+                "file": "docs/阿里云/面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,13 +124,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "77823d479d16ca4c",
+  "active": "8bb9f7af6ee6c482",
   "lastOpenFiles": [
-    "docs/Linux/3. Linux用户管理.md",
+    "docs/阿里云/Pasted image 20230301112213.png",
+    "docs/阿里云/面经.md",
+    "docs/阿里云/Pasted image 20230301112258.png",
+    "docs/阿里云/Pasted image 20230301112124.png",
+    "docs/阿里云/Pasted image 20230301111956.png",
+    "docs/阿里云/Pasted image 20230301111857.png",
+    "docs/计算机网络/10. 计算机网络微课堂.md",
+    "docs/计算机网络/4. URL 到 显示内容.md",
+    "docs/Linux/1. Linux常用命令.md",
+    "docs/阿里云",
     "docs/Linux/4. Linux Crash Course.md",
+    "docs/Linux/3. Linux用户管理.md",
     "docs/Linux/[.md",
     "docs/Linux/2. Linux文件系统.md",
-    "docs/Linux/1. Linux常用命令.md",
     "docs/cpp/README.md",
     "docs/cpp/39. placement new.md",
     "docs/cpp/38. RAII 原则.md",
@@ -138,7 +147,6 @@
     "docs/cpp/36. 静态存储区 Vs 动态存储区.md",
     "docs/cpp/35. 循环引用.md",
     "docs/cpp/34. C++ 17 新特性.md",
-    "docs/计算机网络/10. 计算机网络微课堂.md",
     "docs/cpp/33. LAMBDA 表达式.md",
     "docs/cpp/32. C++ 11 新特性.md",
     "docs/cpp/31. new and delete.md",
@@ -149,9 +157,6 @@
     "docs/cpp/25. initializer_list.md",
     "docs/cpp/24. 左值引用和右值引用.md",
     "docs/cpp/23. decltype.md",
-    "docs/cpp/22. enum.md",
-    "docs/cpp/21. region_operator.md",
-    "docs/cpp/20. using.md",
     "docs/计算机网络/Pasted image 20230226222355.png"
   ]
 }
