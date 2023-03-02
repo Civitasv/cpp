@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8bb9f7af6ee6c482",
+            "id": "e1dacf3ee3ff31af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/阿里云/面经.md",
+                "file": "docs/计算机网络/计算机网络微课堂/2. 数据链路层.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 230.5
   },
   "right": {
     "id": "94d74886e9927f0e",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/阿里云/面经.md",
+                "file": "docs/计算机网络/计算机网络微课堂/2. 数据链路层.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,18 +124,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8bb9f7af6ee6c482",
+  "active": "e1dacf3ee3ff31af",
   "lastOpenFiles": [
-    "docs/阿里云/Pasted image 20230301112213.png",
-    "docs/阿里云/面经.md",
-    "docs/阿里云/Pasted image 20230301112258.png",
-    "docs/阿里云/Pasted image 20230301112124.png",
-    "docs/阿里云/Pasted image 20230301111956.png",
-    "docs/阿里云/Pasted image 20230301111857.png",
+    "docs/计算机网络/计算机网络微课堂/images/2023-03-02-15-23-37.png",
+    "docs/计算机网络/计算机网络微课堂/images/2023-03-02-15-06-44.png",
+    "docs/计算机网络/计算机网络微课堂/images/2023-03-02-15-04-38.png",
+    "docs/计算机网络/计算机网络微课堂/images/透明传输.png",
+    "docs/计算机网络/计算机网络微课堂/images/运输层的一些常见问题.png",
+    "docs/计算机网络/计算机网络微课堂/images/计算机网络速率-例子.png",
+    "docs/计算机网络/计算机网络微课堂/images/计算机网络体系结构.png",
+    "docs/计算机网络/计算机网络微课堂/images/网络层的一些常见问题.png",
+    "docs/计算机网络/计算机网络微课堂/images/物理层的一些常见问题.png",
+    "docs/计算机网络/计算机网络微课堂/images/比特填充.png",
+    "docs/计算机网络/计算机网络微课堂/images/时延.png",
+    "docs/计算机网络/计算机网络微课堂/images",
     "docs/计算机网络/10. 计算机网络微课堂.md",
-    "docs/计算机网络/4. URL 到 显示内容.md",
+    "docs/计算机网络/计算机网络微课堂/0. 概述.md",
+    "docs/计算机网络/计算机网络微课堂/2. 数据链路层.md",
+    "docs/计算机网络/计算机网络微课堂/1. 物理层.md",
+    "docs/计算机网络/计算机网络微课堂",
+    "docs/计算机网络/9. TCP 流量控制.md",
+    "docs/阿里云/面经.md",
     "docs/Linux/1. Linux常用命令.md",
-    "docs/阿里云",
+    "build/sitemap.xml",
+    "build/面试.html",
+    "build/面试/hr 面.html",
+    "build/面试",
+    "build/阿里云/面经.html",
+    "build/阿里云",
+    "build/计算机网络.html",
+    "build/计算机原理.html",
+    "docs/计算机网络/4. URL 到 显示内容.md",
     "docs/Linux/4. Linux Crash Course.md",
     "docs/Linux/3. Linux用户管理.md",
     "docs/Linux/[.md",
@@ -152,11 +171,6 @@
     "docs/cpp/31. new and delete.md",
     "docs/cpp/30. 浅拷贝 vs 深拷贝.md",
     "docs/cpp/29. enum变量初始化.md",
-    "docs/cpp/27. 类型转换.md",
-    "docs/cpp/26. oop.md",
-    "docs/cpp/25. initializer_list.md",
-    "docs/cpp/24. 左值引用和右值引用.md",
-    "docs/cpp/23. decltype.md",
-    "docs/计算机网络/Pasted image 20230226222355.png"
+    "docs/cpp/27. 类型转换.md"
   ]
 }
