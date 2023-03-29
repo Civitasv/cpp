@@ -12,10 +12,11 @@ int main() {
 
   *p2 = 20; // right, 此时是 const 指针，表明指针是不可变的，但指向的变量可变
 
-  const int &c = b;
+  int &c = b;
+  std::cout << &c;
   // c = 2; // error, 引用的值是 const, 所以不能修改
-  int &const d = b; 
-  d = 2; // 这里没有改变 d，所以没有问题，可以把引用看成一个不变的指针
+  // int &const d = b;
+  // d = 2; // 这里没有改变 d，所以没有问题，可以把引用看成一个不变的指针
 
   class Test {
     void test() const {
