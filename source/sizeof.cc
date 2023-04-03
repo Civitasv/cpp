@@ -3,6 +3,12 @@
 
 using namespace std;
 
+extern "C" {
+int function_in_c_lib();
+}
+
+struct alignas(16) MyStruct {};
+
 int main() {
   int a = 3;
   cout << sizeof(a) << '\n'; // return sizeof integer, 4
@@ -16,6 +22,6 @@ int main() {
   int *p = n;
   cout << sizeof(p) << '\n'; // return sizeof pointer, 8
 
-  string ss = "1";
+  string ss = "1234";
   cout << sizeof(ss) << '\n'; // return sizeof string pointer, 32
 }
