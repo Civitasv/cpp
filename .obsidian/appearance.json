@@ -1,11 +1,11 @@
 {
   "translucency": false,
-  "interfaceFontFamily": "Iosevka,LXGW WenKai",
-  "textFontFamily": "Iosevka,LXGW WenKai",
-  "monospaceFontFamily": "Iosevka,LXGW Wenkai",
-  "baseFontSize": 18,
-  "cssTheme": "Things",
-  "theme": "obsidian",
+  "interfaceFontFamily": "SF Pro Display",
+  "textFontFamily": "SF Pro Text",
+  "monospaceFontFamily": "",
+  "baseFontSize": 16,
+  "cssTheme": "Minimal",
+  "theme": "moonstone",
   "baseFontSizeAction": true,
   "accentColor": ""
 }

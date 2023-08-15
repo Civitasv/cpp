@@ -9,5 +9,10 @@
   "shimmering-focus@@show-vault-in-file-explorer": false,
   "shimmering-focus@@hidden-sidebars-hidden-statusbar": false,
   "shimmering-focus@@use-relative-line-numbers": true,
-  "shimmering-focus@@longform-font-text-theme": "\"Lora\", \"Iosevka\", \"Sarasa Fixed CL\""
+  "shimmering-focus@@longform-font-text-theme": "\"Lora\", \"Iosevka\", \"Sarasa Fixed CL\"",
+  "minimal-advanced@@styled-scrollbars": false,
+  "minimal-advanced@@cursor": "default",
+  "minimal-style@@blockquote-font-style": "italic",
+  "minimal-style@@blockquote-color@@light": "#515151",
+  "minimal-style@@blockquote-border-thickness": 2
 }

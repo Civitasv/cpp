@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"type":"file","file":"docs/并行/算子加速思路/GEMM 算子调优.md","id":"f9fcd5cc21afe619","x":-1060,"y":-700,"width":360,"height":260},
+		{"type":"text","text":"算子优化","id":"953c7828f68fb0d1","x":-1300,"y":-400,"width":120,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"50940febd2cb1789","fromNode":"953c7828f68fb0d1","fromSide":"right","toNode":"f9fcd5cc21afe619","toSide":"left"}
+	]
+}

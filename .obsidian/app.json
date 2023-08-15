@@ -6,7 +6,7 @@
   "spellcheckLanguages": [
     "en-US"
   ],
-  "vimMode": true,
+  "vimMode": false,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",

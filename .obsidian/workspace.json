@@ -8,55 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e1dacf3ee3ff31af",
+            "id": "784c52e330e2ef48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/计算机网络/计算机网络微课堂/2. 数据链路层.md",
+                "file": "docs/并行/算子加速思路/GEMM 算子调优.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1ef31fd6683927dd",
+            "id": "d8fae19306f0adc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Linux/1. Linux常用命令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46b9e6c99bc0b259",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/计算机网络/11. TCP 状态机.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9fe5c8317c7a25cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/计算机网络/12. ping www.baidu.com 流程.md",
+                "file": "docs/并行/算子加速思路/GEMM 算子调优.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,12 +69,20 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "b2ba2d257c6806ba",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 230.5,
+    "width": 301.5,
     "collapsed": true
   },
   "right": {
@@ -115,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/计算机网络/12. ping www.baidu.com 流程.md",
+                "file": "docs/并行/算子加速思路/GEMM 算子调优.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,23 +146,41 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9fe5c8317c7a25cb",
+  "active": "d8fae19306f0adc4",
   "lastOpenFiles": [
-    "docs/计算机网络/11. TCP 状态机.md",
-    "docs/计算机网络/12. ping www.baidu.com 流程.md",
-    "docs/Linux/1. Linux常用命令.md",
-    "docs/计算机网络/10. TCP 连接失败怎么调试.md",
+    "docs/并行/4. GPU 内存结构.md",
+    "docs/并行/1. OpenCL.md",
+    "docs/并行/3. 多线程.md",
+    "docs/并行/算子加速思路/Reduce 算子调优.md",
+    "docs/并行/算子加速思路/GEMM 算子调优.md",
     "docs/计算机网络/计算机网络微课堂/2. 数据链路层.md",
-    "docs/计算机网络/计算机网络微课堂/images/2023-03-02-15-23-37.png",
-    "docs/计算机网络/计算机网络微课堂/images/2023-03-02-15-06-44.png",
-    "docs/计算机网络/计算机网络微课堂/images/2023-03-02-15-04-38.png",
-    "docs/计算机网络/计算机网络微课堂/images/透明传输.png",
-    "docs/计算机网络/计算机网络微课堂/images/运输层的一些常见问题.png",
-    "docs/计算机网络/计算机网络微课堂/images/计算机网络速率-例子.png",
-    "docs/计算机网络/计算机网络微课堂/images/计算机网络体系结构.png",
-    "docs/计算机网络/计算机网络微课堂/images/网络层的一些常见问题.png",
-    "docs/计算机网络/计算机网络微课堂/images/物理层的一些常见问题.png",
-    "docs/计算机网络/计算机网络微课堂/images/比特填充.png",
+    "常见深度学习算子优化思路记录.canvas",
+    "docs/Linux/1. Linux常用命令.md",
+    "docs/并行/算子加速思路/Pasted image 20230815150206.png",
+    "docs/并行/算子加速思路/Pasted.md",
+    "docs/并行/算子加速思路/Pasted image 20230815145244.png",
+    "docs/并行/算子加速思路/Pasted image 20230815145244 1.png",
+    "docs/并行/算子加速思路/Pasted image 20230815114346.png",
+    "docs/并行/算子加速思路/Pasted image 20230815114247.png",
+    "docs/并行/算子加速思路/Pasted image 20230815113825.png",
+    "docs/并行/CUDA/CUDA C++ Programming Guide.md",
+    "docs/并行/算子加速思路",
+    "docs/并行/CUDA/CUDA_C_Programming_Guide.pdf",
+    "docs/并行/CUDA/Pasted image 20230808161005.png",
+    "docs/并行/CUDA/Pasted image 20230808155928.png",
+    "docs/并行/CUDA/Pasted image 20230808171058.png",
+    "docs/计算机网络/11. TCP 状态机.md",
+    "docs/并行/CUDA/Pasted image 20230808160936.png",
+    "docs/并行/CUDA",
+    "docs/Untitled",
+    "docs/并行/README.md",
+    "docs/计算机网络/2. TCP 三次握手，四次挥手.md",
+    "docs/计算机网络/3. Get VS Post.md",
+    "docs/计算机网络/1. TCP 和 UDP 的区别.md",
+    "docs/公司/README.md",
+    "Untitled",
+    "docs/计算机网络/12. ping www.baidu.com 流程.md",
+    "docs/计算机网络/10. TCP 连接失败怎么调试.md",
     "docs/计算机网络/计算机网络微课堂/images",
     "docs/计算机网络/10. 计算机网络微课堂.md",
     "docs/计算机网络/计算机网络微课堂/0. 概述.md",
@@ -189,26 +191,9 @@
     "build/sitemap.xml",
     "build/面试.html",
     "build/面试/hr 面.html",
-    "build/面试",
-    "build/阿里云/面经.html",
-    "build/阿里云",
-    "build/计算机网络.html",
-    "build/计算机原理.html",
     "docs/计算机网络/4. URL 到 显示内容.md",
     "docs/Linux/4. Linux Crash Course.md",
     "docs/Linux/3. Linux用户管理.md",
-    "docs/Linux/[.md",
-    "docs/Linux/2. Linux文件系统.md",
-    "docs/cpp/README.md",
-    "docs/cpp/39. placement new.md",
-    "docs/cpp/38. RAII 原则.md",
-    "docs/cpp/37. llvm.md",
-    "docs/cpp/36. 静态存储区 Vs 动态存储区.md",
-    "docs/cpp/35. 循环引用.md",
-    "docs/cpp/34. C++ 17 新特性.md",
-    "docs/cpp/33. LAMBDA 表达式.md",
-    "docs/cpp/32. C++ 11 新特性.md",
-    "docs/cpp/31. new and delete.md",
-    "docs/cpp/30. 浅拷贝 vs 深拷贝.md"
+    "docs/Linux/[.md"
   ]
 }
