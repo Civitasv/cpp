@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/算法/3. 排序算法总结.md",
+                "file": "docs/算法/14. 递归和迭代的区别.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/算法/3. 排序算法总结.md",
+                "file": "docs/算法/14. 递归和迭代的区别.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,8 +133,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f16fe43bdf1b26fb",
+  "active": "626c0cc29bf2acb9",
   "lastOpenFiles": [
+    "docs/算法/3. 排序算法总结.md",
     "docs/面试记录/暑期实习/阿里云/Pasted image 20230301111857.png",
     "docs/项目/Scheme Interpreter/README.md",
     "docs/项目/http-server/README.md",
@@ -180,7 +181,6 @@
     "build/assets/images/计算机网络速率-例子-859f8fffd40ac0e23a170c9a98bfb61c.png",
     "build/assets/images/计算机网络体系结构-fbbfd4ca5bb8f841e9fe1ee706eec8eb.png",
     "build/assets/images/网络层的一些常见问题-d643ec0262946b463e0fa05e9291bb65.png",
-    "build/assets/images/物理层的一些常见问题-b5756ead4b550fedc6714b7023a6a815.png",
-    "build/assets/images/比特填充-d9d2f2f13684fb704ef08585eb7a6f02.png"
+    "build/assets/images/物理层的一些常见问题-b5756ead4b550fedc6714b7023a6a815.png"
   ]
 }
