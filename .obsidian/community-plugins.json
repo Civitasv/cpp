@@ -3,5 +3,8 @@
   "calendar",
   "dataview",
   "templater-obsidian",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "obsidian-excalidraw-plugin",
+  "obsidian-kanban",
+  "obsidian-icon-folder"
 ]

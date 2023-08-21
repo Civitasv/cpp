@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "687dc111abc50d74",
+        "id": "3a9ca1433899dd4d",
         "type": "tabs",
         "children": [
           {
-            "id": "784c52e330e2ef48",
+            "id": "626c0cc29bf2acb9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/并行/算子加速思路/GEMM 算子调优.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8fae19306f0adc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/并行/算子加速思路/GEMM 算子调优.md",
+                "file": "docs/算法/3. 排序算法总结.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#执行中",
+                "query": "llvm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 301.5
   },
   "right": {
     "id": "94d74886e9927f0e",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/并行/算子加速思路/GEMM 算子调优.md",
+                "file": "docs/算法/3. 排序算法总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,6 +122,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -146,54 +133,54 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d8fae19306f0adc4",
+  "active": "f16fe43bdf1b26fb",
   "lastOpenFiles": [
-    "docs/并行/4. GPU 内存结构.md",
-    "docs/并行/1. OpenCL.md",
-    "docs/并行/3. 多线程.md",
-    "docs/并行/算子加速思路/Reduce 算子调优.md",
-    "docs/并行/算子加速思路/GEMM 算子调优.md",
-    "docs/计算机网络/计算机网络微课堂/2. 数据链路层.md",
-    "常见深度学习算子优化思路记录.canvas",
-    "docs/Linux/1. Linux常用命令.md",
-    "docs/并行/算子加速思路/Pasted image 20230815150206.png",
-    "docs/并行/算子加速思路/Pasted.md",
-    "docs/并行/算子加速思路/Pasted image 20230815145244.png",
-    "docs/并行/算子加速思路/Pasted image 20230815145244 1.png",
-    "docs/并行/算子加速思路/Pasted image 20230815114346.png",
-    "docs/并行/算子加速思路/Pasted image 20230815114247.png",
-    "docs/并行/算子加速思路/Pasted image 20230815113825.png",
-    "docs/并行/CUDA/CUDA C++ Programming Guide.md",
-    "docs/并行/算子加速思路",
-    "docs/并行/CUDA/CUDA_C_Programming_Guide.pdf",
-    "docs/并行/CUDA/Pasted image 20230808161005.png",
-    "docs/并行/CUDA/Pasted image 20230808155928.png",
-    "docs/并行/CUDA/Pasted image 20230808171058.png",
-    "docs/计算机网络/11. TCP 状态机.md",
-    "docs/并行/CUDA/Pasted image 20230808160936.png",
-    "docs/并行/CUDA",
-    "docs/Untitled",
-    "docs/并行/README.md",
-    "docs/计算机网络/2. TCP 三次握手，四次挥手.md",
-    "docs/计算机网络/3. Get VS Post.md",
-    "docs/计算机网络/1. TCP 和 UDP 的区别.md",
+    "docs/面试记录/暑期实习/阿里云/Pasted image 20230301111857.png",
+    "docs/项目/Scheme Interpreter/README.md",
+    "docs/项目/http-server/README.md",
+    "docs/index.md",
+    "README.md",
+    "docs/cpp/37. llvm.md",
+    "journal/2023-08-21.md",
+    "docs/面试记录/道听途说",
+    "docs/编译原理/LLVM",
+    "docs/编译原理",
+    "journal",
+    "docs/cpp/Effective C++/README.md",
+    "docs/cpp/Effective C++/4. 确保对象被使用前已先被初始化.md",
+    "docs/cpp/Effective C++/1. 视C++为一个语言联邦.md",
+    "docs/面试记录/暑期实习/阿里云/面经.md",
     "docs/公司/README.md",
-    "Untitled",
-    "docs/计算机网络/12. ping www.baidu.com 流程.md",
-    "docs/计算机网络/10. TCP 连接失败怎么调试.md",
-    "docs/计算机网络/计算机网络微课堂/images",
-    "docs/计算机网络/10. 计算机网络微课堂.md",
-    "docs/计算机网络/计算机网络微课堂/0. 概述.md",
-    "docs/计算机网络/计算机网络微课堂/1. 物理层.md",
-    "docs/计算机网络/计算机网络微课堂",
-    "docs/计算机网络/9. TCP 流量控制.md",
-    "docs/阿里云/面经.md",
+    "docs/面试记录/暑期实习/完美世界.md",
+    "docs/面试记录/README.md",
+    "docs/面试记录/暑期实习",
+    "docs/面试/hr 面.md",
+    "docs/cpp/README.md",
+    "docs/cpp/STL/1. 顺序容器.md",
+    "docs/Drawing 2023-08-20 20.30.46.excalidraw.md",
+    "docs/异构计算/4. GPU 内存结构.md",
+    "docs/异构计算/3. 多线程.md",
+    "docs/异构计算/1. OpenCL.md",
+    "docs/异构计算/算子加速思路/GEMM 算子调优.md",
+    "docs/异构计算/CUDA/Pasted image 20230808171058.png",
+    "docs/异构计算/CUDA/Pasted image 20230808161005.png",
+    "docs/异构计算/CUDA/Pasted image 20230808155928.png",
+    "docs/异构计算/CUDA/CUDA_C_Programming_Guide.pdf",
+    "docs/异构计算/CUDA/CUDA C++ Programming Guide.md",
+    "docs/异构计算/常见深度学习算子优化思路记录.canvas",
+    "docs/Linux/1. Linux常用命令.md",
+    "docs/面试/Untitled Kanban.md",
+    "docs/异构计算/算子加速思路/Reduce 算子调优.md",
     "build/sitemap.xml",
     "build/面试.html",
     "build/面试/hr 面.html",
-    "docs/计算机网络/4. URL 到 显示内容.md",
-    "docs/Linux/4. Linux Crash Course.md",
-    "docs/Linux/3. Linux用户管理.md",
-    "docs/Linux/[.md"
+    "build/面试/完美世界.html",
+    "build/assets/images/透明传输-a1e22971fb3d1ad3f478b1c8dcf64aa4.png",
+    "build/assets/images/运输层的一些常见问题-abf55bbd855299a3f0e46d0976de0d00.png",
+    "build/assets/images/计算机网络速率-例子-859f8fffd40ac0e23a170c9a98bfb61c.png",
+    "build/assets/images/计算机网络体系结构-fbbfd4ca5bb8f841e9fe1ee706eec8eb.png",
+    "build/assets/images/网络层的一些常见问题-d643ec0262946b463e0fa05e9291bb65.png",
+    "build/assets/images/物理层的一些常见问题-b5756ead4b550fedc6714b7023a6a815.png",
+    "build/assets/images/比特填充-d9d2f2f13684fb704ef08585eb7a6f02.png"
   ]
 }

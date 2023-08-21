@@ -1,4 +1,4 @@
-﻿---
+---
 sidebar_position: 1
 ---
 
@@ -6,9 +6,12 @@ sidebar_position: 1
 
 ## What is it
 
-C++ 常见面试题总结。
+计算机常见知识总结。
 
-## [C++ 基础知识](./cpp)
+1. [C++ 基础知识](./cpp/README)
+2. [计算机网络](./计算机网络)
+3. [计算机原理](./计算机原理)
+4. [算法](./algorithm)
 
 ## Reference
 

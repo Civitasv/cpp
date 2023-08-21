@@ -4,8 +4,8 @@
   "textFontFamily": "SF Pro Text",
   "monospaceFontFamily": "",
   "baseFontSize": 16,
-  "cssTheme": "Minimal",
-  "theme": "moonstone",
+  "cssTheme": "Border",
+  "theme": "obsidian",
   "baseFontSizeAction": true,
   "accentColor": ""
 }

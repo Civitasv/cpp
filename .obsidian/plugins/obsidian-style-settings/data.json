@@ -14,5 +14,15 @@
   "minimal-advanced@@cursor": "default",
   "minimal-style@@blockquote-font-style": "italic",
   "minimal-style@@blockquote-color@@light": "#515151",
-  "minimal-style@@blockquote-border-thickness": 2
+  "minimal-style@@blockquote-border-thickness": 2,
+  "Appearance-light@@card-layout-open-light": true,
+  "Appearance-light@@theme-light-style-select": "theme-light-background-default",
+  "Editor@@line-hover-indicator-disable": true,
+  "Components@@Ribbon-autohide": true,
+  "Components@@status-bar-autohide": true,
+  "Components@@nav-header-autohide": true,
+  "Components@@tab-title-bar-fixed": false,
+  "Components@@tab-autohide": false,
+  "Appearance-dark@@card-layout-open-dark": true,
+  "Appearance-dark@@theme-dark-style-select": "theme-dark-background-default"
 }

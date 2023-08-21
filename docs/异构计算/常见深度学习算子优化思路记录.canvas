@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"type":"file","file":"docs/异构计算/算子加速思路/GEMM 算子调优.md","id":"f9fcd5cc21afe619","x":-1220,"y":-1060,"width":360,"height":260},
+		{"type":"text","text":"算子优化","id":"953c7828f68fb0d1","x":-1460,"y":-760,"width":120,"height":60,"color":"1"},
+		{"id":"33f40b94888ac2ba","x":-1220,"y":-730,"width":360,"height":210,"type":"file","file":"docs/异构计算/算子加速思路/Reduce 算子调优.md"}
+	],
+	"edges":[
+		{"id":"50940febd2cb1789","fromNode":"953c7828f68fb0d1","fromSide":"right","toNode":"f9fcd5cc21afe619","toSide":"left"},
+		{"id":"22b139e5959dfa4c","fromNode":"953c7828f68fb0d1","fromSide":"right","toNode":"33f40b94888ac2ba","toSide":"left"}
+	]
+}
